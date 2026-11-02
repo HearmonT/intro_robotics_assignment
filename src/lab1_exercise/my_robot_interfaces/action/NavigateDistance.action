@@ -1,0 +1,10 @@
+# Goal: Drive a specific target distance (in meters) at a given speed
+float32 target_distance
+float32 speed
+---
+# Result: Total distance traveled and whether it succeeded
+float32 total_distance_traveled
+bool success
+---
+# Feedback: Current distance traveled so far
+float32 current_distance_traveled
